@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheoriaActivity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="612dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_1" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="218dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background_2" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="450dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button100"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+
+            android:backgroundTint="#7484FF"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:onClick="onClick"
+            android:text="Урок 1"
+            app:cornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button101"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+
+            android:backgroundTint="#7484FF"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:onClick="onClick"
+            android:text="Урок 2"
+            app:cornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button102"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+
+            android:backgroundTint="#7484FF"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:onClick="onClick"
+            android:text="Урок 3"
+            app:cornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button103"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+
+            android:backgroundTint="#7484FF"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:onClick="onClick"
+            android:text="Урок 4"
+            app:cornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button104"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+
+            android:backgroundTint="#7484FF"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:onClick="onClick"
+            android:text="Урок 5"
+            app:cornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button105"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+
+            android:backgroundTint="#7484FF"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:onClick="onClick"
+            android:text="Урок 6"
+            app:cornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button106"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+
+            android:backgroundTint="#7484FF"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:onClick="onClick"
+            android:text="Урок 7"
+            app:cornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button107"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#7484FF"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:onClick="onClick"
+            android:text="Урок 8"
+            app:cornerRadius="60dp" />
+
+        <Button
+            android:id="@+id/button108"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#7484FF"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:onClick="onClick"
+            android:text="Урок 9"
+            app:cornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button109"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#7484FF"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:onClick="onClick"
+            android:text="Урок 10"
+            app:cornerRadius="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
